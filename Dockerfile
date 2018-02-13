@@ -2,6 +2,8 @@ FROM node:8.9.4-alpine
 
 # Install aws cli
 RUN apk --update add \
+    bash \
+    git \
     python \
     curl \
     groff
